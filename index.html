@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags PWA -->
+    <meta name="theme-color" content="#333333">
+
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="./favicon.png" type="image/png">
+  <link rel="apple-touch-startup-image" href="./favicon.png" type="image/png">
+
+  <!-- manifest -->
+  <link rel="manifest" href="manifest.json">
+    <!-- Title -->
+    <title>React CDN</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./static/style.css">
+    <!-- React CDN -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+    ></script>
+    <!-- React DOM -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <!-- babel CDN -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <!-- Se le da un id al div para identificarlo con React -->
+    <!-- <div onclick="alert('div tocado')" id="root"> -->
+
+        <div id="root"></div>
+      <!-- En general para nombrar componentes, los llamo con Mayuscula al principio -->
+      <script type="text/babel" src="./components/Contador.js"></script>
+      <script type="text/babel" src="./index.js"></script>
+      <!-- Registro de la PWA progressive web app -->
+      <script src="./register.js"></script>
+    </div>
+  </body>
+</html>
