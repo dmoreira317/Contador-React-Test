@@ -6,6 +6,6 @@ This is a React test, focusing building a functional PWA.
 - It can be downloaded and used as a PWA. 
 
 #### Languages and libraries used
-`React` `JavaScript` `HTML`
+`React` `JavaScript` `HTML` `CSS`
 
 
