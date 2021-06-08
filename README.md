@@ -1,5 +1,5 @@
 ## React Counter as PWA
-This is a React test, focusing building a functional PWA.
+This is a React test, focusing on building a functional PWA.
 
 #### Features
 - A basic counter, changes colors when in positive or negative values.
