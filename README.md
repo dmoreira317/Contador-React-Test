@@ -1,4 +1,4 @@
-## React Counter
+## React Counter as PWA
 This is a React test, focusing building a functional PWA.
 
 #### Features
